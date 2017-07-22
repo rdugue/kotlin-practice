@@ -12,6 +12,7 @@ class AcronymTest {
         assertEquals(expected, Acronym.generate(phrase))
     }
 
+
     //@Ignore
     @Test
     fun fromOtherTitleCasedPhrases() {
@@ -19,6 +20,7 @@ class AcronymTest {
         val expected = "ROR"
         assertEquals(expected, Acronym.generate(phrase))
     }
+
 
     //@Ignore
     @Test

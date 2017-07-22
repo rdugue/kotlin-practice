@@ -12,7 +12,8 @@ class AcronymTest {
         assertEquals(expected, Acronym.generate(phrase))
     }
 
-    @Ignore
+
+    //@Ignore
     @Test
     fun fromOtherTitleCasedPhrases() {
         val phrase = "Ruby on Rails"
@@ -20,7 +21,8 @@ class AcronymTest {
         assertEquals(expected, Acronym.generate(phrase))
     }
 
-    @Ignore
+
+    //@Ignore
     @Test
     fun fromInconsistentlyCasedPhrases() {
         val phrase = "HyperText Markup Language"
